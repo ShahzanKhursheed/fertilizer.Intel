@@ -60,13 +60,14 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgb(248, 241, 248);
-    box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.575);
+    background-color: rgb(233, 237, 248);
+    box-shadow: 50px 10px 30px rgba(0, 0, 0, 0.575);
 }
 
 h1, h2 {
     text-align: center;
     color: #333;
+    
 }
 
 label {
@@ -79,21 +80,27 @@ input {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #020203;
     border-radius: 4px;
-    color: #333;
+    color: #0f0a0a;
+    font-style: italic;
 }
 
 button {
-    display: inline-block;
-    margin-left: 199px;
-    width: 400px;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+    width: 240px;
+    height: 30px;
     background-color: #28a745;
     color: white;
     border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    border-radius: 24px;
+    cursor: crosshair;
+    font-size: larger;
+
 }
 
 button:hover {
@@ -117,8 +124,4 @@ footer {
 footer a {
     color: #00d5ff;
 }
- @median only screen and (605px){
-    .hero span{
-        
-    }
-}
+ 
